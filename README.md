@@ -6,3 +6,8 @@
 *Also we need to add markdown boxes to describe the logic + theories + algorithms behind each code-cell. It will make our approach traceable and useful for knowledge-transfer task.*
 
 *.......So please be patient for a couple of days until I get the whole job done .......*
+
+![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/main/Picture1.png)
+(https://github.com/Shahabks/Sab-AI-Lab/blob/master/images/logon.jpg)
+
+         
