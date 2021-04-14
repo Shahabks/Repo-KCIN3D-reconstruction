@@ -1,8 +1,12 @@
 # Repo-KCIN3D-reconstruction
 ## For the prototype KMCIN1 and feasibility study Feb-March 2021
 
-         On Apr 7 2021
-         One file revised DX_Komatsu_Prototype_0-183D1PLZ_平面図04_REV1
+        On Apr 14 2021
+         one File is revised DX_Komatsu_Prototype_0-233D1CSZ_横断図25.ipynb
+        
+        
+        On Apr 7 2021
+         One file is revised DX_Komatsu_Prototype_0-183D1PLZ_平面図04_REV1
          
          Added 
          
