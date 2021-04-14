@@ -23,6 +23,22 @@
 
 ![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/main/Picture1.png)
 
+## Contexts and background 
+
+Our clients usually receive road-construction drawings from some engineering firms (third-parties). These drawings are detailed the construction procedures and the roads, designs and often come in interconnected 2D drawings. The drawings are complex as they contain huge volume of unstructured data either in symbols, or natural languages, or geometrical objects. 
+
+        Challenge-1- The clients need to extract specific construction and design information about the road objects in a 3D coordinates system,
+
+        Challenge-2 - The extracted information should be extremely accurate and be consolidated in a fashion to create the 3D surfaces which represent the roads in the Earth                          Ground (EG) or the natural ground.
+
+For each road-project, the clients usually have four types of drawings / Datasets:
+
+1. Plot-view drawing(s) which show an overview (top) of the roads with all details associated with the roads' surroundings (PVDwg)
+2. Profile-view drawing(s) which show the longitudinal cross-sections of the roads. These drawings contain all information about elevations of the roads (LVDwg)
+3. Road-Assembly drawings which are detailed the roads and their shoulders and sub-assemblies and in effect they show the transversal cross-sections of the roads in different parts along the roads (RTDwg)
+4. Ground Surface elevation datasets which contain the topographic information of the Earth Ground (EG).
+
+ To address the challenges, we shall introduce these two approaches:
 
 ## Approach-1 
 
