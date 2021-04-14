@@ -24,4 +24,7 @@
 ![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/main/Picture1.png)
 
 
+Approach-1 includes eight steps of which the first four steps are identical to the steps of Approach-2. In this approach, we will try to minimize dependency to C3D functionalities. The outputs of this approach will be the 3D view of the roads-surface (TIN), the 3D roads information in .XML files. The metric that shows the performance of our model/approach will be the distance between the already-available XML data of the roads (as the ground truth) and our model’s generated data outputs. 
+
+
          
