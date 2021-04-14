@@ -38,4 +38,17 @@ includes eight steps of which the first four steps are identical to the steps of
 8. Creating 3D surface we will use VB.NET or C#.NET
 
 
-         
+## Approach-2 
+
+includes ten steps of which the first four steps are identical to the steps of Approach-1. In this approach, we will use C3D functionalities to create engineering entities which may not be useful for Komatsu or the project objectives, though they will make our approach more smoother and perhaps efficient. The outputs of this approach will be the 3D view of the roads-surface (TIN), a 3D corridor, a set of Komatsu’s road-cross-section libraries (which can be reused for other projects), the 3D roads information in .XML files. The metric that shows the performance of our model/approach will be the distance between the already-available XML data of the roads (as the ground truth) and our model’s generated data outputs.   
+
+1. Annotation and Vectorization: At this step, we will convert all drawings to datapoints with their relevant features, save in csv files. Each project will have its own Master-Folder
+2. Data pre-processing and management: we will use Python to clean, prepare, and manage all the extracted datapoints from the drawings
+3. Information Extraction-1: We will use Python to extract desired information (queries) about the roads centerlines and the stations from the PVDwg(s). We will continue to extract complimentary information (elevations) from LVDwg(s) and build a “Data-Frame” that contains 3D information about the roads centerlines. We will save the Data-Frame in a csv file
+4. Information Extraction-2: We will use python to extract all information about the road-finishing surfaces (RTDwg) along with their shoulders, subassemblies, and ditches. If the road-finishing surfaces are not available, we will apply the rule (created based on engineering knowledge of Komatsu) and approximate the finishing surface. The information and datapoints are save in different csv files; each tagged with a station number
+5. Re-creation of the roads centerlines 3D: we will use VB or C#
+6. Transform the 3D centerline to alignments: we will use VB.NET or C#.NET
+7. Libraries building of the road-transversal-cross-sections 2D: we will use VB or C#.NET
+8. Importing EG data: we will use VB.NET or C#.NET
+9. Building corridors: we will use VB.NET or C#.NET
+10. Creating 3D surface we will use VB.NET or C#.NET        
