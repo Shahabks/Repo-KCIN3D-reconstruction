@@ -2,6 +2,7 @@
 ## For the prototype KMCIN1 and feasibility study Feb-March 2021
         On Apr 16 2021
          One file is revised DX_Komatsu_Prototype_0-183D1PLZ_平面図04_REV2.pynb
+         One file is added consol_Interactive.ipynb - far early stage of development - version ALPHA
         
         
         On Apr 14 2021
