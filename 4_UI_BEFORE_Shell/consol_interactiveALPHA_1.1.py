@@ -17,10 +17,11 @@ prnamelv = input ( "Enter the project profile name: " )
 querytagA = int(input("Enter the 1st tag for DX: "))
 querytagB = int(input("Enter the last tag for DX: "))
 
-mdpathpv = '/mnt/c/Users/CINPC0075/Desktop/Repo-KCIN3D-reconstruction/'+ prnamepv +'.csv'
-mdpathlv = '/mnt/c/Users/CINPC0075/Desktop/Repo-KCIN3D-reconstruction/'+ prnamelv +'.csv'
-mdpathpv_OUT0 = '/mnt/c/Users/CINPC0075/Desktop/Repo-KCIN3D-reconstruction/'+ prnamepv+"_OUT0" +'.xlsx'
-mdpathpv_OUT1 = '/mnt/c/Users/CINPC0075/Desktop/Repo-KCIN3D-reconstruction/'+ prnamepv+"_OUT1" +'.xlsx'
+cathy = 'mnt/c/Users/CINPC0075/Desktop/Repo-KCIN3D-reconstruction/'
+mdpathpv = cathy+ prnamepv +'.csv'
+mdpathlv = cathy+ prnamelv +'.csv'
+mdpathpv_OUT0 = cathy+ prnamepv+"_OUT0" +'.xlsx'
+mdpathpv_OUT1 = cathy+ prnamepv+"_OUT1" +'.xlsx'
 
 
 dflv = pd.read_csv(mdpathlv,index_col=0)
