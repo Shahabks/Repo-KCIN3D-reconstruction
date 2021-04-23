@@ -1,4 +1,8 @@
 # Repo-KCIN3D-reconstruction
+
+## For replication use the files in 
+        Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/
+
 ## For the prototype KMCIN1 and feasibility study Feb-March 2021
 ## Move to KMCIN2 Proof of Concept March-May 2021
         On April 23 2021
