@@ -5,8 +5,14 @@ import numpy as np
 import math
 from pandas import DataFrame
 from openpyxl import Workbook
+from openpyxl import load_workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 from pathlib import Path
+import warnings
+warnings.filterwarnings("ignore")
+import win32com.client
+import xlsxwriter
+
 
 # Section-1
 
@@ -17,11 +23,13 @@ prnamelv = input ( "Enter the project profile name: " )
 querytagA = int(input("Enter the 1st tag for DX: "))
 querytagB = int(input("Enter the last tag for DX: "))
 
-cathy = 'mnt/c/Users/CINPC0075/Desktop/Repo-KCIN3D-reconstruction/'
+cathy = 'C:/Users/CINPC0075/Desktop/Repo-KCIN3D-reconstruction/'
 mdpathpv = cathy+ prnamepv +'.csv'
 mdpathlv = cathy+ prnamelv +'.csv'
 mdpathpv_OUT0 = cathy+ prnamepv+"_OUT0" +'.xlsx'
 mdpathpv_OUT1 = cathy+ prnamepv+"_OUT1" +'.xlsx'
+mdpathpv_OUT0M = cathy+ prnamepv+"_OUT0M" +'.xlsm'
+mdpathpv_OUT1M = cathy+ prnamepv+"_OUT1M" +'.xlsm'
 
 
 dflv = pd.read_csv(mdpathlv,index_col=0)
@@ -124,12 +132,14 @@ dll4 = dl4.drop(["End X", "End Y", "End Z",'Start X','Start Y','Start Z'], axis=
 fii = fi.drop(["CX", "CY", "TX",'TY','TG','Dis'], axis=1)
 from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
+wb = load_workbook(mdpathpv_OUT0M, keep_vba=True) 
 wb = Workbook()
 ws = wb.active
 for r in dataframe_to_rows(dll4, index=True, header=True):
     ws.append(r)
 for cell in ws['A'] + ws[1]:
     cell.style = 'Pandas'
+wb.save(mdpathpv_OUT0M)
 wb.save(mdpathpv_OUT0)
 wba = Workbook()
 wsa = wba.active
