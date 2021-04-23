@@ -1,6 +1,9 @@
 # Repo-KCIN3D-reconstruction
 ## For the prototype KMCIN1 and feasibility study Feb-March 2021
 ## Move to KMCIN2 Proof of Concept March-May 2021
+        On April 23 2021
+         this file Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/3D_Objects_CR_Adjusted_for_Komatsu_2.bas was revised 
+        
         On Apr 16 2021
          One file is added XLMacro_Python_Rub.py (run VBA from Python)
          One file is added consol_interactiveALPHA_0.py - early stage of development - version ALPHA
