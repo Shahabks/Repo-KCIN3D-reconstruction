@@ -117,19 +117,3 @@ Sub GetmyDatatoAutoCADC()
     MsgBox "The user commands were successfully sent to AutoCAD!", vbInformation, "Done"
       
 End Sub
-
-Sub ClearAll()
-    
-    Dim LastRow As Long
-    
-    'Find the last row and clear all the input data from the sheet.
-    With Sheets("Sheet")
-        .Activate
-        LastRow = .Cells(.Rows.Count, "A").End(xlUp).Row
-        If LastRow > 12 Then
-            .Range("A3:BA" & LastRow).ClearContents
-        End If
-        .Range("A3").Select
-    End With
-    
-End Sub
