@@ -5,6 +5,14 @@
 
 ## For the prototype KMCIN1 and feasibility study Feb-March 2021
 ## Move to KMCIN2 Proof of Concept March-May 2021
+        On April 24 2021
+         New revision 
+         this file Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/consol_interactive_ALPHA_2.py was added 
+         # This python code automatically run VBA in excel ... It should be run in Windows Environment. 
+         
+         this file Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/Demo1_183D1PLZ_平面図04_OUT0.xlsm was added
+         # This file contains the VBA for communicating between output-datasets and AutoCAD 
+        
         On April 23 2021
          this file Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/3D_Objects_CR_Adjusted_for_Komatsu_2.bas was revised 
          this file Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/consol_interactiveALPHA_1.1.py was revised 
@@ -30,14 +38,6 @@
          >>> DFX_DWG2CSV.cs
          >>> vs_community__2111406413.1569763062.exe
 
-
-*the image shows other notebooks that we need to integrate into the main notebook.*
-
-*Also we need to add markdown boxes to describe the logic + theories + algorithms behind each code-cell. It will make our approach traceable and useful for knowledge-transfer task.*
-
-*.......So please be patient for a couple of days until I get the whole job done .......*
-
-![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/main/Picture1.png)
 
 ## Contexts and background 
 
