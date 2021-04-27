@@ -1,5 +1,7 @@
 # Repo-KCIN3D-reconstruction
 
+## For running the toy-app use the files in the folder 
+        /First_Demo_UI/
 ## For replication use the files in 
         Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/
 
