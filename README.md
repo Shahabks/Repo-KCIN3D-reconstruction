@@ -1,10 +1,22 @@
 # Repo-KCIN3D-reconstruction
 
-## For replication use the files in 
+## For running the prototype, use the files in Branch-4
+        Repo-KCIN3D-reconstruction/Initial_Prototype_UI/
+        +++ Follow ReadMe there
+        +++ Tested in Visual Studio with Python 3.6, 3.8, 3.9 and 3 different road projects datasets 
+
+## For Demo, use the files in Branch-3
+        Repo-KCIN3D-reconstruction/First_Demo_Windows_Based/
+        +++ Follow ReadMe there
+        +++ Tested in Visual Studio with Python 3.6, 3.8, 3.9
+
+
+## For replication, use the files in 
         Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/
 
-## For the prototype KMCIN1 and feasibility study Feb-March 2021
-## Move to KMCIN2 Proof of Concept March-May 2021
+### For the prototype KMCIN1 and feasibility study Feb-March 2021
+
+Move to KMCIN2 Proof of Concept March-May 2021
         On April 24 2021
          New revision 
          this file Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/consol_interactive_ALPHA_2.py was added 
