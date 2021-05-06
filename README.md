@@ -7,6 +7,7 @@
    Do not need to run Excel, .NET, or any other programs in the background. If you wish to visualize the results, You need to have AutoCAD or C3D been running in background 
         
   Download/save the folders in Branch-4 and keep the folder structure as it is.
+  
         -- Komatsu_3D.bat - THE ONLY FILE to run on Windows-Terminal 
         ---------- /Inputs/ includes projects' datasets
         ----------- /Outputs
@@ -14,8 +15,10 @@
         -----------/src / includes and will be added more executive scripts
         
    Notes: 
-        1- The script automatically draws the road structure in 3D feature-objects 
-        2- You need to install these dependencies / requirements :   
+   
+   1- The script automatically draws the road structure in 3D feature-objects 
+   2- You need to install these dependencies / requirements :   
+   
                 pandas 
                 numpy 
                 math 
