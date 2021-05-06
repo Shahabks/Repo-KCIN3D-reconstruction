@@ -1,8 +1,8 @@
 # Repo-KCIN3D-reconstruction
 
 ** For running the prototype, run only 
-        Repo-KCIN3D-reconstruction/Initial_Prototype_UI/Komatsu_3D.bat
-        on Windows-terminal
+
+ Repo-KCIN3D-reconstruction/Initial_Prototype_UI/Komatsu_3D.bat ---------- on Windows-terminal
         
    Do not need to run Excel, .NET, or any other programs in the background. If you wish to visualize the results, You need to have AutoCAD or C3D been running in background 
         
