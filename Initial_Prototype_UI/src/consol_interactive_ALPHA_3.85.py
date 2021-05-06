@@ -21,7 +21,7 @@ import xlsxwriter
 
 # Project_Globa_Directory must be set up 
 
-cathi = r'C:\Users\CINPC0075\Desktop\Repo-KCIN3D-reconstruction\For_UI_FS\Initial_Prototype_UI'
+cathi = input("This is a Windows-Based script. Please enter the path to the project directory (e.g. C:/Users/..):   ")
 prnamepv = input('Project Name:  ')
 querytagA = int(input("Enter the 1st tag for DX: "))
 querytagB = int(input("Enter the last tag for DX: "))
