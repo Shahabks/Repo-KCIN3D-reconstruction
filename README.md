@@ -1,35 +1,30 @@
 # Repo-KCIN3D-reconstruction
 
-## For running the prototype, run only  
-    in Branch-4
-    Repo-KCIN3D-reconstruction/Initial_Prototype_UI/Komatsu_3D.bat on Windows-terminal 
-    
-    Download/save the folders in Branch-4 and keep the folder structure as it is.
-    -- Komatsu_3D.bat - THE ONLY FILE to run on Windows-Terminal 
-    -- consol_interactive_ALPHA_3.3.py - the script for DX-1
-    -- 3DFObjects.vbs - .NET to communicate extracted datapoints with CAD for visualization 
-    ----------- /Inputs/ includes projects' datasets
-    ----------- /Outputs
-    -----------/Temp
-    -----------/src / includes and will be added more executive scripts
-    
-    Notes: 
-    In ./Inputs/ 183D1PLZ_平面図04.csv (Includes the datapoints of Plan-View. Enter the file name without extension when you initiate the python script) and 
-    187D1PFZ_縦断図03.csv  (Includes the datapoints of Longitudinal-Cross-Section-View. Enter the file name as the third input when you initiate the python script)
-    
-    1- If you wish to visualize the results, You need to have AutoCAD or C3D been running in background 
-    2- The script automatically draws the road structure in 3D feature-objects 
-    3- You need to install these dependencies / requirements :   
-            pandas 
-            numpy 
-            math 
-            openpyxl 
-            pathlib 
-            win32com 
-            xlsxwriter 
-            
-     +++ Tested in Visual Studio with Python 3.6, 3.8, 3.9 and datasets from 3 different road-projects 
-
+** For running the prototype, run only 
+        Repo-KCIN3D-reconstruction/Initial_Prototype_UI/Komatsu_3D.bat
+        on Windows-terminal
+        
+   Do not need to run Excel, .NET, or any other programs in the background. If you wish to visualize the results, You need to have AutoCAD or C3D been running in background 
+        
+  Download/save the folders in Branch-4 and keep the folder structure as it is.
+        -- Komatsu_3D.bat - THE ONLY FILE to run on Windows-Terminal 
+        ---------- /Inputs/ includes projects' datasets
+        ----------- /Outputs
+        -----------/Temp
+        -----------/src / includes and will be added more executive scripts
+        
+   Notes: 
+        1- The script automatically draws the road structure in 3D feature-objects 
+        2- You need to install these dependencies / requirements :   
+                pandas 
+                numpy 
+                math 
+                openpyxl 
+                pathlib 
+                win32com 
+                xlsxwriter 
+                
+         +++ Tested in Visual Studio with Python 3.6, 3.8, 3.9 and datasets from 3 different road-projects 
 ## For Demo, use the files in Branch-3
         Repo-KCIN3D-reconstruction/First_Demo_Windows_Based/
         +++ Follow ReadMe there
@@ -40,41 +35,6 @@
         Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/
 
 ### For the prototype KMCIN1 and feasibility study Feb-March 2021
-
-Move to KMCIN2 Proof of Concept March-May 2021
-        On April 24 2021
-         New revision 
-         this file Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/consol_interactive_ALPHA_2.py was added 
-         # This python code automatically run VBA in excel ... It should be run in Windows Environment. 
-         
-         this file Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/Demo1_183D1PLZ_平面図04_OUT0.xlsm was added
-         # This file contains the VBA for communicating between output-datasets and AutoCAD 
-        
-        On April 23 2021
-         this file Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/3D_Objects_CR_Adjusted_for_Komatsu_2.bas was revised 
-         this file Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/consol_interactiveALPHA_1.1.py was revised 
-        
-        On Apr 16 2021
-         One file is added XLMacro_Python_Rub.py (run VBA from Python)
-         One file is added consol_interactiveALPHA_0.py - early stage of development - version ALPHA
-         One file is revised DX_Komatsu_Prototype_0-183D1PLZ_平面図04_REV3.pynb
-         One file is revised DX_Komatsu_Prototype_0-183D1PLZ_平面図04_REV2.pynb
-         One file is added consol_Interactive.ipynb - far early stage of development - version ALPHA
-        
-        
-        On Apr 14 2021
-         one File is revised DX_Komatsu_Prototype_0-233D1CSZ_横断図25.ipynb
-        
-        
-        On Apr 7 2021
-         One file is revised DX_Komatsu_Prototype_0-183D1PLZ_平面図04_REV1.ipynb
-         
-         Added 
-         
-         >>> DX_Komatsu_Prototype_0-233D1CSZ_横断図25.ipynb
-         >>> DFX_DWG2CSV.cs
-         >>> vs_community__2111406413.1569763062.exe
-
 
 ## Contexts and background 
 
