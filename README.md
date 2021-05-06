@@ -1,6 +1,6 @@
 # Repo-KCIN3D-reconstruction
 
-** For running the prototype, run only 
+## For running the prototype, run only 
 
  Repo-KCIN3D-reconstruction/Initial_Prototype_UI/Komatsu_3D.bat ---------- on Windows-terminal
         
