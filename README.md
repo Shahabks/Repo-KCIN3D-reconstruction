@@ -6,17 +6,13 @@
         
         Download/save the folders in Branch-4 and keep the folder structure as it is.
         -- Komatsu_3D.bat - THE ONLY FILE to run on Windows-Terminal 
-        -- consol_interactive_ALPHA_3.3.py - the script for DX-1
-        -- 3DFObjects.vbs - .NET to communicate extracted datapoints with CAD for visualization 
-        ----------- /Inputs/ includes projects' datasets
+       ----------- /Inputs/ includes projects' datasets
         ----------- /Outputs
         -----------/Temp
         -----------/src / includes and will be added more executive scripts
         
         Notes: 
-        In ./Inputs/ 183D1PLZ_平面図04.csv (Includes the datapoints of Plan-View. Enter the file name without extension when you initiate the python script) and 
-        187D1PFZ_縦断図03.csv  (Includes the datapoints of Longitudinal-Cross-Section-View. Enter the file name as the third input when you initiate the python script)
-        
+                
         1- If you wish to visualize the results, You need to have AutoCAD or C3D been running in background 
         2- The script automatically draws the road structure in 3D feature-objects 
         3- You need to install these dependencies / requirements :   
