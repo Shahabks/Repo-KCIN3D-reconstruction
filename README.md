@@ -33,19 +33,19 @@
 
 ## Output (3D surfaces of block structures)
 
-![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/1.png)
+![](/images/1.png)
 
 ## Output (3D meshed surfaces)
 
-![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/3.png)
+![](/images/3.png)
 
 ## Output (3D detailed of ditch captuered, extracted and reconstructed)
 
-![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/2.png)
+![](/images/2.png)
 
 ## Output (Automatic 3D re-construction process - input data from 2D)
 
-![caption](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/pros.gif)
+![!(/images/pros.gif)
 
 
 
