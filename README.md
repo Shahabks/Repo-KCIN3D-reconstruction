@@ -29,15 +29,15 @@
    
 ## Output (xml for TIN surface)
 
-![Image](https:/github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/4.png)
+![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/4.png)
 
 ## Output (3D surfaces of block structures)
 
-![Image](https:/github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/1.png)
+![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/1.png)
 
 ## Output (3D meshed surfaces)
 
-![Image](https:/github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/3.png)
+![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/3.png)
 
 ## Output (3D detailed of ditch captuered, extracted and reconstructed)
 
