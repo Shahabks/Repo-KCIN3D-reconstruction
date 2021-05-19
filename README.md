@@ -2,7 +2,7 @@
 
 ## For running the prototype run only 
 
- \KM_CN_3D_TIN_SF_PROTOTYPE/Komatsu_3D.bat ---------- on Windows-terminal
+ \KM_CN_3D_TIN_SF_PROTOTYPE\Komatsu_3D.bat ---------- on Windows-terminal
         
  Do not need to run Excel, .NET, or any other programs in the background. If you wish to visualize the results, You need to have AutoCAD or C3D been running in background 
         
@@ -29,15 +29,15 @@
    
 ## Output (xml for TIN surface)
 
-![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/4.png)
+![Image](https:/github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/4.png)
 
 ## Output (3D surfaces of block structures)
 
-![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/1.png)
+![Image](https:/github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/1.png)
 
 ## Output (3D meshed surfaces)
 
-![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/3.png)
+![Image](https:/github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/3.png)
 
 ## Output (3D detailed of ditch captuered, extracted and reconstructed)
 
