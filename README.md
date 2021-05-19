@@ -45,7 +45,7 @@
 
 ## Output (Automatic 3D re-construction process - input data from 2D)
 
-![caption](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/pros.GIF)
+![caption](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/pros.gif)
 
 
 
