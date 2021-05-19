@@ -29,7 +29,7 @@
    
 ## Output (xml for TIN surface)
 
-![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/images/4.png)
+![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/4.png)
 
 ## Output (3D surfaces of block structures)
 
@@ -45,7 +45,7 @@
 
 ## Output (Automatic 3D re-construction process - input data from 2D)
 
-![caption](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/pros.gif)
+![caption](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/pros.GIF)
 
 
 
