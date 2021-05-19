@@ -45,7 +45,7 @@
 
 ## Output (Automatic 3D re-construction process - input data from 2D)
 
-![!(/images/pros.gif)
+![](/images/pros.gif)
 
 
 
