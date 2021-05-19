@@ -29,7 +29,7 @@
    
 ## Output (xml for TIN surface)
 
-![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/4.png)
+![Image](https:\\github.com\Shahabks\Repo-KCIN3D-reconstruction\blob\master\images\4.png)
 
 ## Output (3D surfaces of block structures)
 
