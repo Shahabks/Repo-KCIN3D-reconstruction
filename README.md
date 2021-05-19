@@ -1,22 +1,16 @@
 # Repo-KCIN3D-reconstruction
 
-## For running the prototype, run only 
+## For running the prototype run only 
 
- Repo-KCIN3D-reconstruction/Initial_Prototype_UI/Komatsu_3D.bat ---------- on Windows-terminal
+ \KM_CN_3D_TIN_SF_PROTOTYPE/Komatsu_3D.bat ---------- on Windows-terminal
         
-   Do not need to run Excel, .NET, or any other programs in the background. If you wish to visualize the results, You need to have AutoCAD or C3D been running in background 
+ Do not need to run Excel, .NET, or any other programs in the background. If you wish to visualize the results, You need to have AutoCAD or C3D been running in background 
         
-  Download/save the folders in Branch-4 and keep the folder structure as it is.
-  
-        -- Komatsu_3D.bat - THE ONLY FILE to run on Windows-Terminal 
-        ---------- /Inputs/ includes projects' datasets
-        ----------- /Outputs
-        -----------/Temp
-        -----------/src / includes and will be added more executive scripts
-        
+ Download/save the folder "KM_CN_3D_TIN_SF_PROTOTYPE"  and keep the folder structure as it is.
+         
    Notes: 
    
-   1- The script automatically draws the road structure in 3D feature-objects 
+   1- The script automatically extract information for roads from datasets, then draws the roads structures in 3D feature-objects 
    
    2- You need to install these dependencies / requirements :   
    
@@ -27,20 +21,33 @@
                 pathlib 
                 win32com 
                 xlsxwriter 
+                import os
+                pathlib 
+                win32com                
                 
    +++ Tested in Visual Studio with Python 3.6, 3.8, 3.9 and datasets from 3 different road-projects 
    
-   
-## For Demo, use the files in Branch-3
-        Repo-KCIN3D-reconstruction/First_Demo_Windows_Based/
-        +++ Follow ReadMe there
-        +++ Tested in Visual Studio with Python 3.6, 3.8, 3.9
+## Output (xml for TIN surface)
+
+![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/4.png)
+
+## Output (3D surfaces of block structures)
+
+![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/1.png)
+
+## Output (3D meshed surfaces)
+
+![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/3.png)
+
+## Output (3D detailed of ditch captuered, extracted and reconstructed)
+
+![Image](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/2.png)
+
+## Output (Automatic 3D re-construction process - input data from 2D)
+
+![caption](https://github.com/Shahabks/Repo-KCIN3D-reconstruction/blob/master/images/pros.gif)
 
 
-## For replication, use the files in 
-        Repo-KCIN3D-reconstruction/4_UI_BEFORE_Shell/
-
-### For the prototype KMCIN1 and feasibility study Feb-March 2021
 
 ## Contexts and background 
 
