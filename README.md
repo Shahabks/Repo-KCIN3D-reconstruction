@@ -2,7 +2,7 @@
 
 ## For running the prototype run only 
 
- \KM_CN_3D_TIN_SF_PROTOTYPE\Komatsu_3D.bat ---------- on Windows-terminal
+ \KM_CN_3D_TIN_SF_PROTOTYPE\KU_3D.bat ---------- on Windows-terminal
         
  Do not need to run Excel, .NET, or any other programs in the background. If you wish to visualize the results, You need to have AutoCAD or C3D been running in background 
         
